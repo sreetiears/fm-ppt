@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.frontend-slides/
+
+# 去年学长原件与外部论文不入库
+refs/last-year/
+*.pptx
+!slides/**/*.pptx
+*.pdf
+!docs/**/*.md
+
+# 本地密钥与编辑器
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
